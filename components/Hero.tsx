@@ -39,7 +39,7 @@ const hero = () => {
     />
 
         <div className='flex flex-col w-full gap-3 sm:flex-row pt-8'>
-          <a href='https://calendly.com/qwc/estimates-schedule'>
+          <a href='https://calendly.com/qualityworkconstruction/estimates'>
             <Button
             type="button"
             title="Schedule a Meeting"
