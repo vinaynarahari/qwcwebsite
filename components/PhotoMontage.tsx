@@ -1,11 +1,17 @@
+"use client"
+
 import Image from "next/image";
 import React from "react";
+import { useRef, useEffect } from 'react';
 
 interface ChangeProps{
     backgroundImage: string;
     title: string;
     subtitle: string; 
 }
+
+
+
 
 const ChangeImages = ({backgroundImage, title, subtitle}: ChangeProps) =>{
     return (
@@ -33,9 +39,33 @@ const ChangeImages = ({backgroundImage, title, subtitle}: ChangeProps) =>{
 }
 
 const PhotoMontage = () => {
+
+
+
+  const galleryRef = useRef<HTMLDivElement | null>(null);
+
+  const scrollToImage = (backgroundImage: string) => {
+    if (galleryRef.current) {
+      const targetImage = galleryRef.current.querySelector(`[class*="${backgroundImage}"]`);
+      
+      if (targetImage instanceof Element) {
+        targetImage.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+      }
+    }
+  };
+
   return (
     <section className=' 2xl:max-container relaitve flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20 bg-pattern patterBGStyles  '>
-        <div className='hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg: h-[400px] xl:h-[640px]'>
+
+        <div className="flex justify-center gap-4 mb-4">
+            <button className="pr-10 bold-20 text-MainColorOrange"  onClick={() => scrollToImage('bg-bg-img-1')}>Bookshelf</button>
+            <button className="pr-10 bold-20 text-MainColorOrange" onClick={() => scrollToImage('bg-bg-img-2')}>Garage</button>
+            <button className="pr-10 bold-20 text-MainColorOrange" onClick={() => scrollToImage('bg-bg-img-4')}>Gym</button>
+            <button className="pr-10 bold-20 text-MainColorOrange" onClick={() => scrollToImage('bg-bg-img-5')}>Pool</button>
+            <button className="pr-10 bold-20 text-MainColorOrange" onClick={() => scrollToImage('bg-bg-img-6')}>Kitchen</button>
+        </div>
+
+        <div ref = {galleryRef} className='hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg: h-[400px] xl:h-[640px]'>
             <ChangeImages 
                 backgroundImage="bg-bg-img-1"
                 title= "9/21/22 - Bookshelf Remodeling "
