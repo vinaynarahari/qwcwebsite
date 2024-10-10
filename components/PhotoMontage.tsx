@@ -1,15 +1,14 @@
 "use client"
 
-import { IntegerType } from "mongodb";
 import Image from "next/image";
 import React from "react";
 import { useRef, useEffect } from 'react';
 
-interface ChangeProps{
+interface ChangeProps {
     backgroundImage: string;
     title: string;
     subtitle: string; 
-    idNum: IntegerType;
+    idNum: number; 
 }
 
 
