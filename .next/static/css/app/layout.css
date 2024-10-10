@@ -1122,9 +1122,18 @@ body {
     padding-bottom: 5rem;
   }
 
+  .sm\:pr-4{
+    padding-right: 1rem;
+  }
+
   .sm\:text-sm{
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .sm\:regular-16{
+    font-size: 16px;
+    font-weight: 400;
   }
 
   .sm\:bold-32{
@@ -1162,6 +1171,10 @@ body {
     padding-bottom: 1rem;
   }
 
+  .md\:pr-10{
+    padding-right: 2.5rem;
+  }
+
   .md\:regular-32{
     font-size: 32px;
     font-weight: 400;
@@ -1171,6 +1184,11 @@ body {
     font-size: 52px;
     font-weight: 700;
     line-height: 120%;
+  }
+
+  .md\:bold-20{
+    font-size: 20px;
+    font-weight: 700;
   }
 
   .md\:hover\:scale-90:hover{
@@ -1237,6 +1255,10 @@ body {
     padding-bottom: 5rem;
   }
 
+  .lg\:pr-10{
+    padding-right: 2.5rem;
+  }
+
   .lg\:bold-88{
     font-size: 88px;
     font-weight: 700;
@@ -1253,6 +1275,11 @@ body {
     font-size: 32px;
     font-weight: 700;
     line-height: 120%;
+  }
+
+  .lg\:bold-20{
+    font-size: 20px;
+    font-weight: 700;
   }
 
   .lg\:bold-16{
@@ -1309,9 +1336,18 @@ body {
     padding-bottom: 5rem;
   }
 
+  .xl\:pr-10{
+    padding-right: 2.5rem;
+  }
+
   .xl\:regular-16{
     font-size: 16px;
     font-weight: 400;
+  }
+
+  .xl\:bold-20{
+    font-size: 20px;
+    font-weight: 700;
   }
 }
 @media (min-width: 1536px){

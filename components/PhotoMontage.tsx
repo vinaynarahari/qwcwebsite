@@ -59,7 +59,7 @@ const PhotoMontage = () => {
     <section className=' 2xl:max-container relaitve flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20 bg-pattern patterBGStyles  '>
 
         <div className="flex justify-center gap-4 mb-4">
-        <button className="pr-10 bold-20 text-MainColorOrange"
+        <button className="xl:pr-10 xl:bold-20  lg:pr-10 lg:bold-20 md:pr-10 md:bold-20 text-MainColorOrange sm:regular-16 sm:pr-4"
             onClick={() => {
                 const element = document.getElementById('image1');
                 if (element) {
@@ -69,7 +69,7 @@ const PhotoMontage = () => {
         >
             Bookshelf
         </button>
-        <button className="pr-10 bold-20 text-MainColorOrange"
+        <button className="xl:pr-10 xl:bold-20  lg:pr-10 lg:bold-20 md:pr-10 md:bold-20 text-MainColorOrange sm:regular-16 sm:pr-4"
             onClick={() => {
                 const element = document.getElementById('image2');
                 if (element) {
@@ -79,7 +79,7 @@ const PhotoMontage = () => {
         >
             Garage
         </button>
-        <button className="pr-10 bold-20 text-MainColorOrange"
+        <button className="xl:pr-10 xl:bold-20  lg:pr-10 lg:bold-20 md:pr-10 md:bold-20 text-MainColorOrange sm:regular-16 sm:pr-4"
             onClick={() => {
                 const element = document.getElementById('image3');
                 if (element) {
@@ -89,7 +89,7 @@ const PhotoMontage = () => {
         >
             Gym
         </button>
-        <button className="pr-10 bold-20 text-MainColorOrange"
+        <button className="xl:pr-10 xl:bold-20  lg:pr-10 lg:bold-20 md:pr-10 md:bold-20 text-MainColorOrange sm:regular-16 sm:pr-4"
             onClick={() => {
                 const element = document.getElementById('image4');
                 if (element) {
@@ -99,7 +99,7 @@ const PhotoMontage = () => {
         >
             Pool
         </button>
-        <button className="pr-10 bold-20 text-MainColorOrange"
+        <button className="xl:pr-10 xl:bold-20  lg:pr-10 lg:bold-20 md:pr-10 md:bold-20 text-MainColorOrange sm:regular-16 sm:pr-4"
             onClick={() => {
                 const element = document.getElementById('image5');
                 if (element) {
