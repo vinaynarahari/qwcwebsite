@@ -4,6 +4,7 @@ const nextConfig = {
       // Ignore linting errors during production builds
       ignoreDuringBuilds: true,
     },
+    
   };
   
   export default nextConfig;
