@@ -5,6 +5,11 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   swcMinify: true,
+  // Add this line to disable SWC plugins
+  experimental: {
+    forceSwcTransforms: true,
+  },
 };
 
 export default nextConfig;
+
