@@ -4,7 +4,7 @@ export const NAV_LINKS = [
     { href: '/', key: 'Gallery', label: 'Results' },
     { href: '#guide', key: 'services', label: 'Our Process' },
     { href: '#testomonial', key: 'reviews ', label: 'Testomonials ' },
-    { href: 'mailto: qualityworkcontruction@gmail.com', key: 'contact_us', label: 'Contact Us' },
+    { href: '/Form', key: 'contact_us', label: 'Contact Us' },
   ];
   
   // CAMP SECTION
