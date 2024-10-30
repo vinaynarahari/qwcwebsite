@@ -32,6 +32,20 @@ const Form = () => {
                     <br /> <br />
                   </div>
                 </div>
+
+
+                <div>
+                  <label id="phone">Phone Number:<span className="text-[#F79F48]">*</span></label> <br />
+                  <input
+                    required
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    className="border rounded-lg w-full p-2"
+                    placeholder="Your Phone Number"
+                  />{" "}
+                  <br /> <br />
+                </div>
     
                 <div>
                   <label id="fname">Email Address:<span className="text-[#F79F48]">*</span></label> <br />
@@ -45,6 +59,9 @@ const Form = () => {
                   />{" "}
                   <br /> <br />
                 </div>
+
+
+
               </section>
               <section>
                 <label id="fname">Query Type:<span className="text-[#F79F48]">*</span></label>
