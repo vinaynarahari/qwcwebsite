@@ -67,7 +67,7 @@ const PhotoMontage = () => {
                 }
             }}
         >
-            Bookshelf
+            Bathroom
         </button>
         <button className="xl:pr-10 xl:bold-20  lg:pr-10 lg:bold-20 md:pr-10 md:bold-20 text-MainColorOrange sm:regular-16 sm:pr-4"
             onClick={() => {
@@ -114,9 +114,16 @@ const PhotoMontage = () => {
         <div ref = {galleryRef} className='hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg: h-[400px] xl:h-[640px]'>
             <ChangeImages 
                 backgroundImage="bg-bg-img-1"
-                title= "9/21/22 - Bookshelf Remodeling "
+                title= "9/21/22 - Jacuzzi Installation "
                 subtitle="~6 Month Turnaround"
                 idNum = {1}
+                
+            />
+            <ChangeImages 
+                backgroundImage="bg-bg-img-7"
+                title= "9/21/22 - Jacuzzi Installation "
+                subtitle="~6 Month Turnaround"
+                idNum = {6}
                 
             />
             <ChangeImages 
@@ -138,10 +145,38 @@ const PhotoMontage = () => {
                 idNum = {4}
             />
             <ChangeImages 
-                backgroundImage="bg-bg-img-6"
+                backgroundImage="bg-bg-img-8"
                 title= "12/24/23 - Kitchen Refresh"
                 subtitle="~3 Month Turnaround"
                 idNum = {5}
+            />
+
+            <ChangeImages 
+                backgroundImage="bg-bg-img-9"
+                title= "12/24/23 - Kitchen Refresh"
+                subtitle="~3 Month Turnaround"
+                idNum = {8}
+            />
+
+            <ChangeImages 
+                backgroundImage="bg-bg-img-10"
+                title= "12/24/23 - Kitchen Refresh"
+                subtitle="~3 Month Turnaround"
+                idNum = {9}
+            />
+
+            <ChangeImages 
+                backgroundImage="bg-bg-img-11"
+                title= "12/24/23 - Kitchen Refresh"
+                subtitle="~3 Month Turnaround"
+                idNum = {10}
+            />
+
+            <ChangeImages 
+                backgroundImage="bg-bg-img-12"
+                title= "12/24/23 - Kitchen Refresh"
+                subtitle="~3 Month Turnaround"
+                idNum = {11}
             />
 
    

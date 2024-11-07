@@ -520,11 +520,11 @@ video {
 .left-0{
   left: 0px;
 }
-.top-0{
-  top: 0px;
-}
 .right-6{
   right: 1.5rem;
+}
+.top-0{
+  top: 0px;
 }
 .top-6{
   top: 1.5rem;
@@ -569,17 +569,17 @@ video {
 .mt-10{
   margin-top: 2.5rem;
 }
+.mt-2{
+  margin-top: 0.5rem;
+}
+.mt-4{
+  margin-top: 1rem;
+}
 .mt-5{
   margin-top: 1.25rem;
 }
 .mt-6{
   margin-top: 1.5rem;
-}
-.mt-4{
-  margin-top: 1rem;
-}
-.mt-2{
-  margin-top: 0.5rem;
 }
 .block{
   display: block;
@@ -599,6 +599,9 @@ video {
 .hidden{
   display: none;
 }
+.h-1{
+  height: 0.25rem;
+}
 .h-6{
   height: 1.5rem;
 }
@@ -614,17 +617,8 @@ video {
 .h-full{
   height: 100%;
 }
-.h-1{
-  height: 0.25rem;
-}
 .h-screen{
   height: 100vh;
-}
-.h-0\.5{
-  height: 0.125rem;
-}
-.h-8{
-  height: 2rem;
 }
 .min-h-screen{
   min-height: 100vh;
@@ -635,14 +629,14 @@ video {
 .w-6{
   width: 1.5rem;
 }
+.w-8{
+  width: 2rem;
+}
 .w-\[100vw\]{
   width: 100vw;
 }
 .w-full{
   width: 100%;
-}
-.w-8{
-  width: 2rem;
 }
 .min-w-\[1100px\]{
   min-width: 1100px;
@@ -670,22 +664,14 @@ video {
   --tw-translate-x: 0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-.-rotate-45{
-  --tw-rotate: -45deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-.rotate-45{
-  --tw-rotate: 45deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
 .transform{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-.cursor-pointer{
-  cursor: pointer;
-}
 .cursor-not-allowed{
   cursor: not-allowed;
+}
+.cursor-pointer{
+  cursor: pointer;
 }
 .grid-cols-9{
   grid-template-columns: repeat(9, minmax(0, 1fr));
@@ -790,10 +776,6 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(247 159 72 / var(--tw-bg-opacity));
 }
-.bg-yellow-120{
-  --tw-bg-opacity: 1;
-  background-color: rgb(152 137 12 / var(--tw-bg-opacity));
-}
 .bg-black{
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -802,19 +784,15 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-\[\#4CAF50\]{
+.bg-yellow-120{
   --tw-bg-opacity: 1;
-  background-color: rgb(76 175 80 / var(--tw-bg-opacity));
-}
-.bg-\[\#f44336\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(244 67 54 / var(--tw-bg-opacity));
+  background-color: rgb(152 137 12 / var(--tw-bg-opacity));
 }
 .bg-opacity-35{
   --tw-bg-opacity: 0.35;
 }
 .bg-bg-img-1{
-  background-image: url('/Before After Slider - Bookshelf.png');
+  background-image: url('/Jacuzzi Backyard Photo.jpg');
 }
 .bg-bg-img-2{
   background-image: url('/Before After Slider - Garage.png');
@@ -828,11 +806,29 @@ video {
 .bg-bg-img-6{
   background-image: url('/Meridiq Before After -- gym.png');
 }
+.bg-bg-img-7{
+  background-image: url('/Bathroom After QWC Photos.jpg');
+}
 .bg-feature-bg{
   background-image: url('/undraw-svg-process.svg');
 }
 .bg-pattern-2{
   background-image: url('/Change PNG Opacity (1).png');
+}
+.bg-bg-img-8{
+  background-image: url('/QWC_Website_Photo_1597.jpg');
+}
+.bg-bg-img-9{
+  background-image: url('/QWC_Website_Photo_1599.jpg');
+}
+.bg-bg-img-10{
+  background-image: url('/QWC_Website_Photo_1600.jpg');
+}
+.bg-bg-img-11{
+  background-image: url('/QWC_Website_Photo_1601.jpg');
+}
+.bg-bg-img-12{
+  background-image: url('/QWC_Website_Photo_1604.jpg');
 }
 .bg-contain{
   background-size: contain;
@@ -878,10 +874,6 @@ video {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
 .pb-1\.5{
   padding-bottom: 0.375rem;
 }
@@ -918,25 +910,25 @@ video {
 .text-center{
   text-align: center;
 }
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
-.text-xs{
-  font-size: 0.75rem;
-  line-height: 1rem;
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-.text-sm{
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 .font-semibold{
   font-weight: 600;
@@ -963,6 +955,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(38 38 38 / var(--tw-text-opacity));
 }
+.text-red-500{
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -970,10 +966,6 @@ video {
 .text-yellow-50{
   --tw-text-opacity: 1;
   color: rgb(254 198 1 / var(--tw-text-opacity));
-}
-.text-red-500{
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 .opacity-50{
   opacity: 0.5;
@@ -993,11 +985,11 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
-.duration-500{
-  transition-duration: 500ms;
-}
 .duration-300{
   transition-duration: 300ms;
+}
+.duration-500{
+  transition-duration: 500ms;
 }
 .btn_black{
   --tw-border-opacity: 1;
@@ -1289,10 +1281,6 @@ body {
   }
 }
 @media (min-width: 768px){
-
-  .md\:w-auto{
-    width: auto;
-  }
 
   .md\:flex-1{
     flex: 1 1 0%;
