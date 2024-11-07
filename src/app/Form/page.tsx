@@ -6,7 +6,7 @@ const Form = () => {
   const [isDeclined, setIsDeclined] = useState(false); // Track if user declined terms
 
   // Handle Accept checkbox change
-  const handleAcceptChange = (e) => {
+  const handleAcceptChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.checked) {
       setIsAccepted(true);
       setIsDeclined(false); // Uncheck Decline if Accept is checked
@@ -16,7 +16,7 @@ const Form = () => {
   };
 
   // Handle Decline checkbox change
-  const handleDeclineChange = (e) => {
+  const handleDeclineChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.checked) {
       setIsDeclined(true);
       setIsAccepted(false); // Uncheck Accept if Decline is checked
@@ -192,7 +192,3 @@ const Form = () => {
 };
 
 export default Form;
-
-
-
-
