@@ -130,9 +130,9 @@ const Form = () => {
             <div className="flex flex-col gap-4 mt-4">
               <div>
                 <span>
-                  By signing up for the <strong>QWC Text</strong> program, you agree to receive <strong>updates, progress, and ads</strong>.
-                  Message and data rates may apply. You will receive <strong>~4</strong> messages per month.
-                  For assistance, text <strong>HELP</strong> or contact customer care at <strong>[Customer Care Number]</strong>.
+                  By signing up for the <strong>QWC SMS Communication</strong> program, you agree to receive <strong>updates, promotions, and exclusive offers</strong>.
+                  Message and data rates may apply.
+                  For assistance, text <strong>HELP</strong> or contact customer care at <strong>+1 (312) 978-3798</strong>.
                   To opt out, text <strong>STOP</strong> to cancel at any time.
                   By signing up, you also agree to Salesmsg's <a href="[Privacy Policy Link]" target="_blank">Privacy Policy</a> and <a href="[Terms and Conditions Link]" target="_blank">Terms & Conditions</a>.
                 </span>

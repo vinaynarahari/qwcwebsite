@@ -508,6 +508,9 @@ video {
 .font-outline-2 {
       -webkit-text-stroke: 1px #f0b67a;
     }
+.visible{
+  visibility: visible;
+}
 .static{
   position: static;
 }
@@ -520,14 +523,23 @@ video {
 .left-0{
   left: 0px;
 }
+.right-5{
+  right: 1.25rem;
+}
 .right-6{
   right: 1.5rem;
 }
 .top-0{
   top: 0px;
 }
+.top-5{
+  top: 1.25rem;
+}
 .top-6{
   top: 1.5rem;
+}
+.top-1\/2{
+  top: 50%;
 }
 .z-10{
   z-index: 10;
@@ -580,6 +592,9 @@ video {
 }
 .mt-6{
   margin-top: 1.5rem;
+}
+.ml-8{
+  margin-left: 2rem;
 }
 .block{
   display: block;
@@ -656,12 +671,19 @@ video {
 .flex-1{
   flex: 1 1 0%;
 }
+.flex-grow{
+  flex-grow: 1;
+}
 .-translate-x-full{
   --tw-translate-x: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .translate-x-0{
   --tw-translate-x: 0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.-translate-y-1\/2{
+  --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .transform{
@@ -794,6 +816,15 @@ video {
 .bg-bg-img-1{
   background-image: url('/Jacuzzi Backyard Photo.jpg');
 }
+.bg-bg-img-10{
+  background-image: url('/QWC_Website_Photo_1600.jpg');
+}
+.bg-bg-img-11{
+  background-image: url('/QWC_Website_Photo_1601.jpg');
+}
+.bg-bg-img-12{
+  background-image: url('/QWC_Website_Photo_1604.jpg');
+}
 .bg-bg-img-2{
   background-image: url('/Before After Slider - Garage.png');
 }
@@ -803,17 +834,8 @@ video {
 .bg-bg-img-5{
   background-image: url('/Before After Slider --Kithcen.png');
 }
-.bg-bg-img-6{
-  background-image: url('/Meridiq Before After -- gym.png');
-}
 .bg-bg-img-7{
   background-image: url('/Bathroom After QWC Photos.jpg');
-}
-.bg-feature-bg{
-  background-image: url('/undraw-svg-process.svg');
-}
-.bg-pattern-2{
-  background-image: url('/Change PNG Opacity (1).png');
 }
 .bg-bg-img-8{
   background-image: url('/QWC_Website_Photo_1597.jpg');
@@ -821,14 +843,11 @@ video {
 .bg-bg-img-9{
   background-image: url('/QWC_Website_Photo_1599.jpg');
 }
-.bg-bg-img-10{
-  background-image: url('/QWC_Website_Photo_1600.jpg');
+.bg-feature-bg{
+  background-image: url('/undraw-svg-process.svg');
 }
-.bg-bg-img-11{
-  background-image: url('/QWC_Website_Photo_1601.jpg');
-}
-.bg-bg-img-12{
-  background-image: url('/QWC_Website_Photo_1604.jpg');
+.bg-pattern-2{
+  background-image: url('/Change PNG Opacity (1).png');
 }
 .bg-contain{
   background-size: contain;
@@ -929,6 +948,10 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 .font-semibold{
   font-weight: 600;
@@ -1246,6 +1269,10 @@ body {
     justify-content: space-between;
   }
 
+  .sm\:gap-4{
+    gap: 1rem;
+  }
+
   .sm\:bg-none{
     background-image: none;
   }
@@ -1298,6 +1325,10 @@ body {
     gap: 7rem;
   }
 
+  .md\:gap-8{
+    gap: 2rem;
+  }
+
   .md\:py-4{
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -1305,6 +1336,11 @@ body {
 
   .md\:pr-10{
     padding-right: 2.5rem;
+  }
+
+  .md\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 
   .md\:regular-32{
@@ -1343,6 +1379,10 @@ body {
     margin-right: 1.5rem;
   }
 
+  .lg\:block{
+    display: block;
+  }
+
   .lg\:flex{
     display: flex;
   }
@@ -1365,6 +1405,10 @@ body {
 
   .lg\:gap-10{
     gap: 2.5rem;
+  }
+
+  .lg\:gap-12{
+    gap: 3rem;
   }
 
   .lg\:rounded-r-5xl{
