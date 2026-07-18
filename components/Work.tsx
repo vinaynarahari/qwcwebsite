@@ -12,7 +12,7 @@ const work = () => {
             <h3 className='pl-24 text-MainColorGray pb-16 lg:bold-16 md:bold16 sm:bold16 capitalize'>* We use licensed subcontractors for plumbers and roofers.</h3>
          
                 <video width="1920" height="1080" controls preload="none">
-                <source src="/8mb video compressor.mp4" type="video/mp4" />
+                <source src="/QWC Website Video May 2026.mp4" type="video/mp4" />
                 <track
                     src="/path/to/captions.vtt"
                     kind="subtitles"

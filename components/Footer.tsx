@@ -12,6 +12,15 @@ const Footer = () => {
   return (
     <footer className='flexCenter mb-24 border-t-2 pt-10 mt-10'>
         <div className='padding-container max-container flex w-full flex-col gap-14'>
+           <div className='flex w-full justify-center'>
+            <Link href="https://app.gethearth.com/partners/quality-work-construction-corp/alexis" target="_blank">
+              <img
+                src="https://hearth.imgix.net/contractor-v2/banners/home_improvement-v2/700x110_grey.png?dpr=2&auto=compress,format"
+                alt="Financing banner"
+                className='h-auto w-full max-w-[700px]'
+              />
+            </Link>
+          </div>
           <div className='flex flex-col items-start justify-center gap-[10%] md:flex-row'>
             <Link href="/" className='mb-10'>
               <Image 
